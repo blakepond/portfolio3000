@@ -3,13 +3,9 @@ import React from "react";
 
 const Icon = () => {
    return (
-      <header className="App-header">
-         <img
-            src={logo}
-            className="App-logo"
-            alt="logo"
-         />
-      </header>
+      <div className="Logo">
+         <img src={logo} className="App-logo" alt="" />
+      </div>
    );
 };
 

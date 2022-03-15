@@ -7,7 +7,9 @@ import Wavy from "./components/Wavy/Wavy";
 function App() {
    return (
       <div className="App">
-         <Icon />
+         <a href="https://iwei-purple.vercel.app" target="_blank" rel="noreferrer">
+            <Icon />
+         </a>
          <Nav />
          <Wavy />
       </div>
